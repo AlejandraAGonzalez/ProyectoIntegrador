@@ -22,7 +22,7 @@
 }
 
 .contenedor{
-    background-color: rgb(249, 255, 255);
+    background-color: rgb(103, 105, 105);
     padding: 20px;
     text-align: center;
     margin-top: -5px;
@@ -61,18 +61,20 @@
 }
 
 .parrafo{
-    font-style: italic;
-    font-size: small;
+    /* font-style: italic; */
+    padding: 15px 5px;
+    /* font-size: small; */
+    text-align: center;
 }
 
 .logo{
-    width: 50px;
+    width: 60px;
 }
 
-.imagen{
+/* .imagen{
     text-align: center;
     max-width: 100%;
-}
+} */
 
 #anchoVideo{
     width: 100%;
@@ -84,4 +86,37 @@
 
 span{
     color:rgb(147, 187, 227);
+}
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  
+    align-items: center;
+    /* justify-content: center; */
+    align-content: flex-end;
+    background: linear-gradient(to right,rgb(0 0 0/.5),rgb(0 0 0/.5)) ,url(imagenes/ba1.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+
+.wrap-texto{
+    color: #fff;
+    text-align: right;
+    width: -50%;
+    
+}
+.inline-buttons .et_pb_button_module_wrapper {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.inline-buttons {
+    text-align: right !important; /* cambia"Center" a "left" o "right" si quieres la que alineación sea a la izquierda o derecha */
+}
+.col-md-4{
+    background-color:rgb(129, 125, 125);
+    color: #fff;
+    
 }
